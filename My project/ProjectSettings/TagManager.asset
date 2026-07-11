@@ -2,8 +2,14 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
-  tags: []
+  serializedVersion: 3
+  tags:
+  - Bullet
+  - Enemy
+  - EnemeyBullet
+  - PlayerBullet
+  - Obstacle
+  - EnemyBullet
   layers:
   - Default
   - TransparentFX
@@ -11,13 +17,13 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Enemy
+  - Island
+  - Obstacle
+  - Bullet
+  - MiniMap
+  - MapBoundary
   - 
   - 
   - 
@@ -41,3 +47,35 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: background
+    uniqueID: 387042061
+    locked: 0
+  - name: sea
+    uniqueID: 3500610711
+    locked: 0
+  - name: islands
+    uniqueID: 2325937795
+    locked: 0
+  - name: obstacles
+    uniqueID: 737277867
+    locked: 0
+  - name: player
+    uniqueID: 1106677905
+    locked: 0
+  - name: ui
+    uniqueID: 313977945
+    locked: 0
+  - name: ships
+    uniqueID: 193928545
+    locked: 0
+  - name: projectiles
+    uniqueID: 3440049981
+    locked: 0
+  - name: effects
+    uniqueID: 113154825
+    locked: 0
+  - name: treasure
+    uniqueID: 3275860493
+    locked: 0
+  m_RenderingLayers:
+  - Default
